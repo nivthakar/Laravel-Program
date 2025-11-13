@@ -8,5 +8,12 @@ class info_tables extends Model
 {
     //
    protected $collection = 'info_tables';
+  
     protected $connection = 'mongodb';
+    protected $fillable = [
+        'name',
+        'email',
+        'city',
+        'contact'
+    ];
 }
