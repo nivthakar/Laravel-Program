@@ -27,3 +27,6 @@ Route::get('/', function () {
 });
 
 route::get('/add_data',[info_controller::class,'insert_data']);
+
+route::get('/view_data',[info_controller::class,'fetch_data']);
+route::get('/dummy',[info_controller::class,'dummy_function']);
